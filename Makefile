@@ -9,3 +9,6 @@ Test-Grid : Test-Grid/main.c
 
 Test-Text : Test-Text/main.c
 	gcc Test-Text/main.c -o Test-Text/main `pkg-config --cflags gtk4` `pkg-config --libs gtk4`
+
+Test-Multipanel : Test-Multipanel/main.c
+	gcc Test-Multipanel/main.c -o Test-Multipanel/main `pkg-config --cflags gtk4` `pkg-config --libs gtk4`
